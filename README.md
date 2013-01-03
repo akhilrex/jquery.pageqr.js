@@ -4,8 +4,8 @@ jQuery Page QR Plugin
 This is a very lightweight and easy to use jQuery plugin which will add a small QR code of the current page url and add it at the corner of the page. This plugin makes it very convenient if you want your visitors to be able to able to open your website/page on their mobile devices. 
 
 The plugin will automatically detect the current url of the page and generate the QR code for that.
+##Usage
 
-**Usage**
 
 
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -23,7 +23,7 @@ The plugin will automatically detect the current url of the page and generate th
 
  
 
-**Options**
+##Options
 
 You can control the behavior of the plugin by providing various setting values. You have following options (with default values)
 
@@ -37,6 +37,13 @@ You can control the behavior of the plugin by providing various setting values. 
             'error_correction_level':'L',       //QR code error correction level, Options : L,M,Q,H            
             'margin':4                          //Margin on QR code
              });
+
+##ToDo
+
+
+1. Dont show QR when opened on mobile
+2. Maybe add more settings
+
 
 ## Author
 
